@@ -1,0 +1,54 @@
+{
+  "name": "@learning/use-request",
+  "version": "1.1.0",
+  "description": "a react hook for sending request",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server --progress --config ./webpack.dev.js ",
+    "build": "webpack --config ./webpack.prod.js",
+    "prepublish": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "request",
+    "use-request"
+  ],
+  "author": "zhaojiwei@bytedance.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-async-generator-functions": "^7.2.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/plugin-transform-parameters": "^7.4.4",
+    "@babel/plugin-transform-spread": "^7.2.2",
+    "@babel/plugin-transform-template-literals": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@types/react": "^16.8.25",
+    "@types/react-dom": "^16.8.5",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "declaration-bundler-webpack-plugin": "^1.0.3",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.6.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
